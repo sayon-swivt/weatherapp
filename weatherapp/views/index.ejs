@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <div class="container">
+      <header>
+        <div class="compass-icon">
+          <img src="/icons/compass.svg" />
+        </div>
+      </header>
+      <div class="weather-title">
+        <h1>Simply Weather</h1>
+        <p>View the current weather from your city</p>
+      </div>
+      <form action="/" method="POST">
+        <input type="text" name="city" class="ghost-input" placeholder="Enter a city">
+      </form>
+    <div class="result">
+      <h1 class="temp">234.88</h1>
+      <div class="icons-des">
+        <img class="icon" src="https://openweathermap.org/img/w/04n.png" alt="">
+        <h3>overcast clouds</h3>
+      </div>
+      <p class="city">Paris</p>
+    </div>>
+    </div>
+
+  </body>
+</html>
